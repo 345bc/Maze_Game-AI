@@ -1,6 +1,6 @@
 # Maze Game
 
-Đây là một dự án nhỏ minh họa thuật toán tìm đường A\* kết hợp với thuật toán tô màu (Dsatur). Ứng dụng là một Flask web app cho phép sinh mê cung, sau đó giải đường từ `start` đến `end` và trả về đường đi cùng thứ tự các ô đã thăm.
+Đây là một dự án nhỏ minh họa thuật toán tìm đường A\* . Ứng dụng là một Flask web app cho phép sinh mê cung, sau đó giải đường từ `start` đến `end` và trả về đường đi cùng thứ tự các ô đã thăm.
 
 **Tệp chính:**
 
