@@ -1,4 +1,4 @@
-# Maze Game (A\* + Maze Generator)
+# Maze Game
 
 Đây là một dự án nhỏ minh họa thuật toán tìm đường A\* kết hợp với bộ tạo mê cung (DFS backtracking). Ứng dụng là một Flask web app cho phép sinh mê cung, sau đó giải đường từ `start` đến `end` và trả về đường đi cùng thứ tự các ô đã thăm.
 
@@ -54,15 +54,13 @@ Kết quả console khi chạy thành công
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-Ghi chú về lỗi
+##Demo
 
-- Nếu lệnh `python app.py` thoát với `Exit Code: 1` như lần chạy gần đây, thường là do thiếu package (`Flask`) hoặc lỗi runtime được in ra console. Kiểm tra thông báo lỗi in trên console để biết chi tiết.
-- Trong API `/solve`, khi có exception server sẽ in ra `Error: <message>` và trả về HTTP 400 với JSON `{"error": "..."}`.
+<h3>Giao diện trang đầu</h3>
+<img src="images/startpage.png" width="500"/>
 
-Tiếp theo (gợi ý)
+<h3>Sinh mê cung ngẫu nhiên</h3>
+<img src="images/random_map.png" width="500"/>
 
-- Nếu muốn, tôi có thể: thêm `requirements.txt`, viết script test tự động, hoặc điều chỉnh UI để hiển thị đường đi rõ ràng hơn.
-
----
-
-Generated README for the Maze_Game project.
+<h3>Giải mê cung bằng A*</h3>
+<img src="images/map_runned.png" width="500"/>
